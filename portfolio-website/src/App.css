@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  --black-color: #242424;
+  --white-color: #fff;
+  --secondary-color: #fca311;
+  --background-color: #404040;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,36 @@
+.contactForm {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactForm > textarea {
+  height: 20vh;
+}
+
+.contactElement,
+.contactButton {
+  margin-top: 40px;
+  resize: none;
+  padding: 10px 12px;
+  background-color: transparent;
+  width: 100%;
+  border-color: #b3b3b3;
+  border-width: 1px;
+  border-style: solid;
+  color: #b3b3b3;
+  font-size: 16px;
+}
+
+.contactButton {
+  margin-top: 40px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border: none;
+}
+.contactButton:hover {
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  border-radius: 0;
+  transition: all 0.3s ease-out;
+}

@@ -1,0 +1,39 @@
+.gallery {
+  padding-top: 4rem;
+  background-color: var(--background-color);
+  min-height: 90vh;
+}
+
+.imageContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.imageWrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 95vw;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.ant-image-mask {
+  margin: 2rem;
+}
+
+.imageItem {
+  display: flex;
+  flex: 1;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .gallery {
+    display: block;
+    min-height: 100vh;
+  }
+}
