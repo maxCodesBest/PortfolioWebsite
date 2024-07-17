@@ -30,8 +30,6 @@ video {
   width: 80%;
   color: var(--white-color);
   font-size: 32px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .hero-btns {
@@ -55,8 +53,8 @@ video {
     background: url("/public/images/img-home.jpg") center center/cover no-repeat;
     padding-bottom: 5vh;
   }
-  .video {
-    height: 0px;
+  video {
+    display: none;
   }
 }
 

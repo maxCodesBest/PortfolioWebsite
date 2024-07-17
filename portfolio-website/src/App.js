@@ -13,6 +13,7 @@ function App() {
   useEffect(() => {
     document.title = "Max Judkevitch";
   }, []);
+
   return (
     <Router>
       <NavigationBar />

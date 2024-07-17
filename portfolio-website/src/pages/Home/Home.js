@@ -1,10 +1,12 @@
 import React from "react";
 import "./Home.css";
 import { Button } from "../../components/Button/Button";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 function Home() {
   return (
     <div className="hero-container">
+      <ScrollToTop />
       <video src="/videos/tripVideo2.mp4" autoPlay loop muted />
       <h1>HELLO THERE!</h1>
       <p>

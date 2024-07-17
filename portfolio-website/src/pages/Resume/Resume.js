@@ -1,29 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Anchor } from "antd";
 import "./Resume.css";
 import Profile from "./sections/Profile.js";
 import EmploymentHistory from "./sections/EmploymentHistory.js";
 import Languages from "./sections/Languages.js";
 import Hobbies from "./sections/Hobbies.js";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 export default function Resume() {
-  const [showAnchor, setShowAnchor] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth <= 960) {
-      setShowAnchor(false);
-    } else {
-      setShowAnchor(true);
-    }
-  };
-
-  useEffect(() => handleResize, []);
-
-  window.addEventListener("resize", handleResize);
-
   const offSet = 80;
   return (
     <>
+      <ScrollToTop />
       <div className="resume">
         <div className="resumeSide">
           <div className="section" id="profile">
@@ -40,44 +28,43 @@ export default function Resume() {
             <Hobbies />
           </div>
         </div>
-        {showAnchor && (
-          <div className="anchorSide">
-            <Anchor
-              offsetTop={offSet}
-              replace
-              items={[
-                {
-                  key: "profile",
-                  href: "#profile",
-                  title: "Profile",
-                },
-                {
-                  key: "employmentHistory",
-                  href: "#employmentHistory",
-                  title: "Employment History",
-                  children: [
-                    {
-                      key: "TransmitEra",
-                      href: "#TransmitEra",
-                      title: "Transmit Security",
-                    },
-                    { key: "IdfEra", href: "#IdfEra", title: "IDF" },
-                  ],
-                },
-                {
-                  key: "languages",
-                  href: "#languages",
-                  title: "Languages",
-                },
-                {
-                  key: "hobbies",
-                  href: "#hobbies",
-                  title: "Hobbies",
-                },
-              ]}
-            />
-          </div>
-        )}
+
+        <div className="anchorSide">
+          <Anchor
+            offsetTop={offSet}
+            replace
+            items={[
+              {
+                key: "profile",
+                href: "#profile",
+                title: "Profile",
+              },
+              {
+                key: "employmentHistory",
+                href: "#employmentHistory",
+                title: "Employment History",
+                children: [
+                  {
+                    key: "TransmitEra",
+                    href: "#TransmitEra",
+                    title: "Transmit Security",
+                  },
+                  { key: "IdfEra", href: "#IdfEra", title: "IDF" },
+                ],
+              },
+              {
+                key: "languages",
+                href: "#languages",
+                title: "Languages",
+              },
+              {
+                key: "hobbies",
+                href: "#hobbies",
+                title: "Hobbies",
+              },
+            ]}
+          />
+        </div>
       </div>
     </>
   );

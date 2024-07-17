@@ -33,9 +33,9 @@
   color: var(--white-color);
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
   .anchorSide {
-    width: 0px;
+    display: none;
   }
   .resumeSide {
     width: 100%;

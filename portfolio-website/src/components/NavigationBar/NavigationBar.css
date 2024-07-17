@@ -1,5 +1,5 @@
 .navigationBar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: var(--black-color);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -87,6 +87,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    align-items: center;
   }
 
   .navigation-menu.active {
@@ -151,5 +152,9 @@
     background: var(--white-color);
     color: var(--black-color);
     transition: 250ms;
+  }
+
+  .navigation-item {
+    width: 80%;
   }
 }

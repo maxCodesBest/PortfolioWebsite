@@ -1,10 +1,12 @@
 import React from "react";
 import "./ContactMe.css";
 import { EmailContact } from "../../components/EmailContact/EmailContact";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 export default function ContactMe() {
   return (
     <div className="contact-container">
+      <ScrollToTop />
       <div className="contactMe">
         <h1>Contact Me</h1>
         <p>

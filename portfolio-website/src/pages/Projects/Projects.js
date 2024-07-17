@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Cards from "../../components/Cards/Cards";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 export default function Projects() {
   const cards = [
@@ -19,6 +20,7 @@ export default function Projects() {
   ];
   return (
     <div className="projects">
+      <ScrollToTop />
       <Cards cards={cards} />
     </div>
   );
