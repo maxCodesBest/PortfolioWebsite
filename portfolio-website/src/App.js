@@ -1,6 +1,6 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import ContactMe from "./pages/ContactMe/ContactMe";
@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <NavigationBar />
       <Routes>
         <Route path="/" exact Component={Home} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/gallery" exact Component={Gallery} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
