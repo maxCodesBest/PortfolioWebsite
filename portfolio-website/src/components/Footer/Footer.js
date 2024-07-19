@@ -15,14 +15,6 @@ function Footer() {
           <small class="website-rights">MJ © 2024</small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
-              to="https://www.facebook.com/max.judkevitch"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
               class="social-icon-link instagram"
               to="https://www.instagram.com/max_judkevitch/"
               target="_blank"

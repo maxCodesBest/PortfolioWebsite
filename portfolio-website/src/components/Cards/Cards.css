@@ -2,7 +2,7 @@
   padding-top: 4rem;
 }
 
-.cards__container {
+.cardsContainer {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -10,22 +10,22 @@
   margin: 0 auto;
 }
 
-.cards__wrapper {
+.cardsWrapper {
   position: relative;
   margin: 50px 0 45px;
 }
 
-.cards__item {
+.cardsItem {
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-  height: 425px; /*TODO change this to something more flexible */
+  height: 425px;
   width: 490px;
   background-color: var(--white-color);
 }
 
-.cards__item__link {
+.cardsItemLink {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -37,7 +37,7 @@
   text-decoration: none;
 }
 
-.cards__item__pic-wrap {
+.cardsItemPic-wrap {
   position: relative;
   width: 100%;
   padding-top: 67%;
@@ -49,7 +49,7 @@
   animation-duration: 2s;
 }
 
-.cards__item__pic-wrap::after {
+.cardsItemPic-wrap::after {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
@@ -63,7 +63,7 @@
   box-sizing: border-box;
 }
 
-.cards__item__img {
+.cardsItemImg {
   position: absolute;
   top: 0;
   right: 0;
@@ -78,34 +78,34 @@
   transition: all 0.2s linear;
 }
 
-.cards__item__img:hover {
+.cardsItemImg:hover {
   transform: scale(1.1);
 }
 
-.cards__item__info {
+.cardsItemInfo {
   padding: 20px 30px 30px;
 }
 
-.cards__item__text {
+.cardsItemText {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
 }
 
 @media only screen and (min-width: 1200px) {
-  .content__blog__container {
+  .contentBlogContainer {
     width: 84%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
+  .cardsItems {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards__item {
+  .cardsItem {
     margin-bottom: 2rem;
     width: 90vw;
   }

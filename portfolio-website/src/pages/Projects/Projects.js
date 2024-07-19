@@ -6,16 +6,22 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 export default function Projects() {
   const cards = [
     {
-      src: "images/githubPurpleLogo.webp",
+      src: "images/projects/githubPurpleLogo.webp",
       text: "My general GitHub profile",
       label: "General",
       path: "https://github.com/maxjud2904",
     },
     {
-      src: "images/HomePageScreenshot.png",
-      text: "Source code for this website",
+      src: "images/projects/HomePageScreenshot.png",
+      text: "Portfolio website - Source code for this website",
       label: "FrontEnd",
       path: "https://github.com/maxjud2904/PortfolioWebsite",
+    },
+    {
+      src: "images/projects/TastingTerroir.jpg",
+      text: "Tasting terroir - Wine tasting notes website",
+      label: "FullStack",
+      path: "https://github.com/maxjud2904/TastingTerroir",
     },
   ];
   return (

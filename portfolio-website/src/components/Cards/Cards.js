@@ -19,9 +19,9 @@ function Cards({ cards }) {
 
   return (
     <div className="cards">
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">{cardItems}</ul>
+      <div className="cardsContainer">
+        <div className="cardsWrapper">
+          <ul className="cardsItems">{cardItems}</ul>
         </div>
       </div>
     </div>
