@@ -118,9 +118,6 @@
   }
 
   .social-media-wrap {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
-}
-
-@media screen and (max-width: 768px) {
 }

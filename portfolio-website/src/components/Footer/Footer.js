@@ -7,11 +7,6 @@ function Footer() {
     <div className="footer-container">
       <section class="social-media">
         <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo">
-              Max Judkevitch
-            </Link>
-          </div>
           <small class="website-rights">MJ © 2024</small>
           <div class="social-icons">
             <Link
