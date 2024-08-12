@@ -6,6 +6,7 @@ import EmploymentHistory from "./sections/EmploymentHistory.js";
 import Languages from "./sections/Languages.js";
 import Hobbies from "./sections/Hobbies.js";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
+import "../../commonFiles/commonText.css";
 
 export default function Resume() {
   const offSet = 80;

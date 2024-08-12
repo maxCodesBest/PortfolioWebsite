@@ -1,7 +1,6 @@
 import React from "react";
 import TransmitEra from "./TransmitEra";
 import IdfEra from "./IdfEra";
-import "./sections.css";
 
 function EmploymentHistory() {
   return (

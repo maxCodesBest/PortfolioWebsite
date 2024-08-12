@@ -20,11 +20,3 @@ export default function Gallery() {
     </div>
   );
 }
-
-// <div className="aboutMe">
-//   <div className="imageContainer">
-//     <div className="imageWrapper">
-//       <Image.PreviewGroup className="images">{images}</Image.PreviewGroup>
-//     </div>
-//   </div>
-// </div>

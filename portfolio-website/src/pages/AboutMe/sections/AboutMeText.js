@@ -1,5 +1,5 @@
 import React from "react";
-import "./sections.css";
+import "../../../commonFiles/commonText.css";
 
 function AboutMeText() {
   return (
