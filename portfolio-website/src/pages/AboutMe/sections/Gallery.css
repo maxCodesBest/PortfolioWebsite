@@ -1,0 +1,29 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-image-mask {
+  margin: 2rem;
+}
+
+.imageItem {
+  display: flex;
+  flex: 1;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.carousel,
+.ant-image-img.imageItem {
+  width: 652px !important;
+  height: 490px;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel,
+  .ant-image-img.imageItem {
+    width: 359px !important;
+    height: 270px;
+  }
+}

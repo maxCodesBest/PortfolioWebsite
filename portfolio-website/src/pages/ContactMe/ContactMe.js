@@ -22,7 +22,7 @@ export default function ContactMe() {
           maxjud2904
         </p>
         <p>
-          <i class="fa-regular fa-heart icon"></i> Please like and subscribe{" "}
+          <i class="fa-regular fa-heart icon"></i>Please like and subscribe{" "}
           <br />
           (please tell me you got the joke)
         </p>

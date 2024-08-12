@@ -1,5 +1,8 @@
 .cards {
-  padding-top: 4rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardsContainer {

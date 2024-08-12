@@ -49,11 +49,11 @@ function NavigationBar() {
             </li>
             <li className="navigation-item">
               <Link
-                to="/gallery"
+                to="/aboutMe"
                 className="navigation-links"
                 onClick={closeMobileMenu}
               >
-                Gallery
+                About Me
               </Link>
             </li>
             <li className="navigation-item">

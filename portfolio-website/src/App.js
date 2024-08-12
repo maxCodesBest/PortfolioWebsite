@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import ContactMe from "./pages/ContactMe/ContactMe";
 import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
-import Gallery from "./pages/Gallery/Gallery";
+import AboutMe from "./pages/AboutMe/AboutMe";
 import { useEffect } from "react";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route path="/contactMe" exact Component={ContactMe} />
         <Route path="/projects" exact Component={Projects} />
         <Route path="/resume" exact Component={Resume} />
-        <Route path="/gallery" exact Component={Gallery} />
+        <Route path="/aboutMe" exact Component={AboutMe} />
       </Routes>
       <Footer />
     </HashRouter>
