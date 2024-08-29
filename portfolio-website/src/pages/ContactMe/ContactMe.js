@@ -11,7 +11,7 @@ export default function ContactMe() {
         <h1>Contact Me</h1>
         <p>
           <i class="fa-regular fa-envelope icon" />
-          maxjud2904@gmail.com
+          contact@max-judkevitch.com
         </p>
         <p>
           <i class="fa fa-phone icon" />
