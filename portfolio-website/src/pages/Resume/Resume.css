@@ -10,6 +10,7 @@
   height: 10vh;
   display: flex;
   justify-content: center;
+  pointer-events: none;
 }
 
 .ant-anchor-wrapper .ant-anchor .ant-anchor-link-title {
@@ -31,6 +32,10 @@
 .resumeSide {
   width: 80%;
   color: var(--white-color);
+}
+
+.doubleSection {
+  padding-bottom: 10vh;
 }
 
 @media only screen and (max-width: 768px) {

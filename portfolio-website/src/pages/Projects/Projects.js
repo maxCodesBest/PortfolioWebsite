@@ -6,7 +6,7 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 export default function Projects() {
   const cards = [
     {
-      src: "images/projects/githubPurpleLogo.webp",
+      src: "images/projects/githubPurpleLogo.jpg",
       text: "My general GitHub profile",
       label: "General",
       path: "https://github.com/maxjud2904",

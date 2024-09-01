@@ -15,17 +15,15 @@ export default function Resume() {
       <ScrollToTop />
       <div className="resume">
         <div className="resumeSide">
-          <div className="section" id="profile">
+          <div id="profile">
             <Profile />
           </div>
-          <div className="section" id="employmentHistory">
+          <div id="employmentHistory">
             <EmploymentHistory />
           </div>
 
-          <div className="section" id="languages">
+          <div className="doubleSection" id="languagesAndHobbies">
             <Languages />
-          </div>
-          <div className="section" id="hobbies">
             <Hobbies />
           </div>
         </div>
@@ -54,14 +52,9 @@ export default function Resume() {
                 ],
               },
               {
-                key: "languages",
-                href: "#languages",
-                title: "Languages",
-              },
-              {
-                key: "hobbies",
-                href: "#hobbies",
-                title: "Hobbies",
+                key: "languagesAndHobbies",
+                href: "#languagesAndHobbies",
+                title: "Languages And Hobbies",
               },
             ]}
           />
