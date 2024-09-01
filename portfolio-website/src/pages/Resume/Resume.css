@@ -1,37 +1,8 @@
 .resume {
   display: flex;
   background-color: var(--background-color);
-  flex-direction: row;
-}
-.anchorSide {
-  width: 20%;
-  position: sticky;
-  top: 10vh;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  pointer-events: none;
-}
-
-.ant-anchor-wrapper .ant-anchor .ant-anchor-link-title {
-  font-size: 16px;
   color: var(--white-color);
-}
-.ant-anchor-wrapper
-  .ant-anchor
-  .ant-anchor-link-active
-  > .ant-anchor-link-title {
-  color: var(--secondary-color);
-}
-.ant-anchor-wrapper:not(.ant-anchor-wrapper-horizontal)
-  .ant-anchor
-  .ant-anchor-ink {
-  background-color: var(--secondary-color);
-}
-
-.resumeSide {
-  width: 80%;
-  color: var(--white-color);
+  flex-direction: column;
 }
 
 .doubleSection {
@@ -39,12 +10,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .anchorSide {
-    display: none;
-  }
-  .resumeSide {
-    width: 100%;
-  }
   .section {
     margin-top: 2vh;
   }
