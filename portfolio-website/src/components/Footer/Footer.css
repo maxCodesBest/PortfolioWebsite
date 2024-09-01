@@ -1,5 +1,8 @@
+.footer-container * {
+  background: var(--black-color);
+}
 .footer-container {
-  background-color: var(--black-color);
+  background: var(--black-color);
   padding: 0 0 2rem 0;
   display: flex;
   flex-direction: column;

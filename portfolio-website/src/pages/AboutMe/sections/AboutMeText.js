@@ -21,7 +21,7 @@ function AboutMeText() {
           the world) level 2 and level 3 certified sommelier (it looks cool when
           I taste wines).
           <br />
-          • I'm also a cetified bartender and mixologist (technically I make
+          • I'm also a certified bartender and mixologist (technically I make
           really good cocktails).
           <br />
           • I love carpentry and actually did a few courses of that too.

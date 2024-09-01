@@ -1,6 +1,5 @@
 .resume {
   display: flex;
-  background-color: var(--background-color);
   color: var(--white-color);
   flex-direction: column;
 }

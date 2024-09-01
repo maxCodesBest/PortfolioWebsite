@@ -1,3 +1,7 @@
+.navigationBar * {
+  background: var(--black-color);
+}
+
 .navigationBar {
   background: var(--black-color);
   height: 80px;
@@ -115,7 +119,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(0, 45%);
   }
 
   .menu-icon {

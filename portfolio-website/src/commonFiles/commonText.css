@@ -1,10 +1,16 @@
 .section {
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-top: 2%;
   padding-bottom: 2%;
   color: var(--white-color);
 }
+
+.subTitleSection {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .section > h1 {
   font-size: 48px;
 }
@@ -12,15 +18,15 @@
 h3 {
   color: var(--secondary-color);
 }
-.section > h2 {
+.subTitleSection > h2 {
   font-size: 32px;
 }
-.section > h3,
+.subTitleSection > h3,
 p,
 text {
   font-size: 24px;
 }
-.section .subSection > h1,
+.section > h1,
 h2,
 h3,
 p,
@@ -43,12 +49,17 @@ text {
   .section > h1 {
     font-size: 26px;
   }
-  .section > h2 {
+  .subTitleSection > h2 {
     font-size: 22px;
   }
-  .section > h3,
+  .subTitleSection > h3,
   p,
   text {
     font-size: 18px;
+  }
+
+  .subTitleSection {
+    padding-top: 4%;
+    padding-bottom: 4%;
   }
 }
