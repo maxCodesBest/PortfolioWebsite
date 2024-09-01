@@ -1,7 +1,3 @@
-.navigationBar * {
-  background: var(--black-color);
-}
-
 .navigationBar {
   background: var(--black-color);
   height: 80px;

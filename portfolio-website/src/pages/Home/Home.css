@@ -5,6 +5,7 @@
   flex-direction: row;
   align-items: center;
   object-fit: contain;
+  background-image: var(--background-image);
 }
 .profile-container {
   text-align: right;

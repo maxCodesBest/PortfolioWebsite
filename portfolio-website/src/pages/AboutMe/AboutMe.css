@@ -1,5 +1,6 @@
 .aboutMe {
   padding-top: 1rem;
+  background-image: var(--background-image);
   min-height: 90vh;
 }
 
