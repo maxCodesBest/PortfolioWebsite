@@ -13,7 +13,7 @@ function AboutMeText() {
         a bit too much. I’m known for being friendly, a team player, and I
         always have a quirky joke up my sleeve.
       </p>
-      <h1>The cool stuff</h1>
+      <h1 style={{ marginTop: "6%" }}>The cool stuff</h1>
       <div className="bullets">
         <p>
           • I’m a certified sommelier with WSET Level 2 and Level 3
