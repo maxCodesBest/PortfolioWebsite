@@ -6,38 +6,37 @@ function AboutMeText() {
     <div className="section">
       <h1>General</h1>
       <p>
-        Hey I'm Max! other than the amazing resume you can find in this website
-        (hmm hmm go check it out) I do some cool stuff :)
+        Hi, I'm Max! Besides the stellar resume you’ll find on this site (wink,
+        wink—check it out!), here’s a bit more about me:
         <br />
-        so first of all I speak spanish fluently and my girlfriend says I love
-        dogs way too much. <br />
-        also I'm super friendly and love working in team and I'll always have a
-        controversial joke to tell.
+        I’m fluent in Spanish and, according to my girlfriend, I might love dogs
+        a bit too much. I’m known for being friendly, a team player, and I
+        always have a quirky joke up my sleeve.
       </p>
       <h1>The cool stuff</h1>
       <div className="bullets">
         <p>
-          • I'm a WSET (Wine and Spirit Education Trust, biggest wine school in
-          the world) level 2 and level 3 certified sommelier (it looks cool when
-          I taste wines).
+          • I’m a certified sommelier with WSET Level 2 and Level 3
+          qualifications (yes, I look cool when I taste wine).
           <br />
-          • I'm also a certified bartender and mixologist (technically I make
-          really good cocktails).
+          • As a certified bartender and mixologist, I’m pretty good at crafting
+          cocktails.
           <br />
-          • I love carpentry and actually did a few courses of that too.
+          • Carpentry is a passion of mine, and I’ve taken several courses to
+          hone my skills.
           <br />
-          • I also love gardening and (what a shock) did a few courses of that
-          too.
+          • I’m also into gardening and have completed a few courses to grow my
+          green thumb.
           <br />
-          • I've been practicing martial arts my entire life doing mainly Judo,
-          Jiu jitsu and Muay Thai (thai boxing).
+          • Martial arts have been a lifelong pursuit for me; I practice Judo,
+          Jiu-Jitsu, and Muay Thai (Thai boxing).
           <br />
-          • I can talk about motorcycles for hours even tho I don't ride anymore
-          since a terrible accident :(
+          • Although I don’t ride anymore after a major accident, I can chat
+          about motorcycles for hours.
           <br />
-          • I'm wondering if I should learn to speak italian or learn to cook
-          professionally as my next challenge so if you have an opinion about
-          that add it to your message in the Contact Me page :)
+          • I’m contemplating my next challenge—either learning Italian or
+          pursuing professional cooking. If you have thoughts on this, feel free
+          to share them in the Contact Me page!
           <br />
         </p>
       </div>

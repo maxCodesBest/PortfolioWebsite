@@ -27,7 +27,7 @@ function IdfEra() {
         </p>{" "}
         <p>
           • Gaining extensive knowledge and experience in working with{" "}
-          <b>Geo-information Systems</b> (GIS), handling Geo-spatial data.
+          <b>Geo-information Systems</b> (GIS), handling geo-spatial data.
         </p>
       </div>
     </div>

@@ -9,7 +9,6 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-
   margin: 0 auto;
 }
 
@@ -23,7 +22,7 @@
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-  height: 425px;
+  height: auto;
   width: 490px;
   background-color: var(--white-color);
 }

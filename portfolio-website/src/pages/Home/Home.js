@@ -18,9 +18,8 @@ function Home() {
       <div className="hero-container">
         <h1>HELLO THERE!</h1>
         <p>
-          Please note this website was made 100% by me.
-          <br /> You will find here my contact info, my resume, every private
-          project I ever worked on and every interesting detail about me.
+          Everything here is personally crafted to provide a comprehensive view
+          of my professional experience and skills.
         </p>
         <div className="hero-btns">
           <Button

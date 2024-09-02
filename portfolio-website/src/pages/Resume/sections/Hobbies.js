@@ -8,7 +8,7 @@ function Hobbies() {
       <p>Carpentry</p>
       <p>Motorcycles</p>
       <p>Hiking</p>
-      <p>Theaters</p>
+      <p>Theater</p>
       <p>Dad jokes</p>
     </div>
   );

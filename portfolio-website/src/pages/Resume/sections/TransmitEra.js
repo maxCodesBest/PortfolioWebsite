@@ -13,13 +13,13 @@ function TransmitEra() {
       </p>
       <div className="bullets">
         <p>
-          • I was in <b>charge of the onboarding</b> process, <b>guiding</b> all
+          • Was in <b>charge of the onboarding</b> process, <b>guiding</b> all
           of the new engineers through our product, codebase, and company
           culture, enhancing their understanding and seamless{" "}
           <b>integration into the team</b>.
         </p>
         <p>
-          • I consistently engage in <b>critical thinking and inquiry</b>, often
+          • Consistently engage in <b>critical thinking and inquiry</b>, often
           providing <b>alternative perspectives</b> to ensure that our product
           designs and decisions are of the <b>highest quality</b>, demonstrating
           a strong <b>commitment to excellence</b>.
@@ -36,7 +36,7 @@ function TransmitEra() {
         </p>{" "}
         <p>
           • Specialized in <b>authentication protocols</b> like FIDO and
-          WebAuthn, and PII like HIPAA protocols contributing deep technical
+          WebAuthn, and PII protocols like HIPAA, contributing deep technical
           knowledge to our team's expertise.
         </p>{" "}
         <p>
