@@ -12,7 +12,7 @@ export default function Projects() {
       path: "https://github.com/maxjud2904",
     },
     {
-      src: "images/projects/HomePageScreenshot.png",
+      src: "images/projects/HomePageScreenshot.jpg",
       text: "Portfolio website - Source code for this website",
       label: "FrontEnd",
       path: "https://github.com/maxjud2904/PortfolioWebsite",
