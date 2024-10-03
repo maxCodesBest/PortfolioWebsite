@@ -19,7 +19,7 @@ export default function ContactMe() {
         </p>
         <p>
           <i class="fa-brands fa-github icon"></i>
-          maxjud2904
+          maxCodesBest
         </p>
         <p>
           <i class="fa-regular fa-heart icon"></i>Please like and subscribe{" "}

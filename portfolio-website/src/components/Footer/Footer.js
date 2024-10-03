@@ -27,7 +27,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="https://github.com/maxjud2904"
+              to="https://github.com/maxCodesBest"
               target="_blank"
               aria-label="GitHub"
             >

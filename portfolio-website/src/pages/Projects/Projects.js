@@ -9,19 +9,19 @@ export default function Projects() {
       src: "images/projects/githubPurpleLogo.jpg",
       text: "My general GitHub profile",
       label: "General",
-      path: "https://github.com/maxjud2904",
+      path: "https://github.com/maxCodesBest",
     },
     {
       src: "images/projects/HomePageScreenshot.jpg",
       text: "Portfolio website - Source code for this website",
       label: "FrontEnd",
-      path: "https://github.com/maxjud2904/PortfolioWebsite",
+      path: "https://github.com/maxCodesBest/PortfolioWebsite",
     },
     {
       src: "images/projects/TastingTerroir.jpg",
       text: "Tasting terroir - Wine tasting notes website",
       label: "FullStack",
-      path: "https://github.com/maxjud2904/TastingTerroir",
+      path: "https://github.com/maxCodesBest/TastingTerroir",
     },
   ];
   return (
