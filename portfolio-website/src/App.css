@@ -6,7 +6,7 @@
   --black-color: #242424;
   --white-color: #fff;
   --secondary-color: #fca311;
-  --background-image: url("../public/images/patternBackground.png");
+  --background-image: url("../public/images/patternBackground.webp");
 }
 
 ::-webkit-scrollbar {

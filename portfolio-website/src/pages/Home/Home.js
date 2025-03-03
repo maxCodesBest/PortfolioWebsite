@@ -11,7 +11,7 @@ function Home() {
         <img
           className="profile-image"
           alt="profile"
-          src={"images/profile.png"}
+          src={"images/profile.webp"}
         />
       </div>
       <div className="spacer"></div>
