@@ -7,7 +7,12 @@ function CardItem(props) {
       <li className="cardsItem">
         <Link className="cardsItemLink" to={props.path} target="_blank">
           <figure className="cardsItemPic-wrap" data-category={props.label}>
-            <img className="cardsItemImg" alt="img" src={props.src} />
+            <img
+              className="cardsItemImg"
+              alt="img"
+              src={props.src}
+              placeholder="logo512.webp"
+            />
           </figure>
           <div className="cardsItemInfo">
             <h5 className="cardsItemText">{props.text}</h5>
