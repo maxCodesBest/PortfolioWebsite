@@ -11,7 +11,9 @@ function CardItem(props) {
               className="cardsItemImg"
               alt="img"
               src={props.src}
-              placeholder="logo512.webp"
+              placeholder={
+                <img src="logo512.webp" className="cardsItemImg" alt="img" />
+              }
             />
           </figure>
           <div className="cardsItemInfo">

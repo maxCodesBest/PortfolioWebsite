@@ -13,7 +13,7 @@ function Home() {
           className="profile-image"
           src={"images/profile.webp"}
           preview={false}
-          placeholder="logo512.webp"
+          placeholder={<Image preview={false} src="logo512.webp" />}
         />
       </div>
       <div className="spacer"></div>
